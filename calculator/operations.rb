@@ -27,7 +27,7 @@ module Calculator
     def no_integers(numbers)
       numbers = numbers.split
       cond_div = ["25", "50", "75", "00"] #condição de divisibilidade
-      resul = Array.new                   #array resposta
+      resul = Array.new                    # array resposta
       numbers.each do |numero|
         if numero.length < 2
           resul.push("N")
